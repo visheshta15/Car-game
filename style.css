@@ -1,0 +1,130 @@
+.hide{
+    display: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Slab', serif;
+}
+
+.gameArea{
+    width: 27%;
+    height: 100vh;
+    background-color: #1e272e;
+    position: relative;
+    margin: auto;  
+    border-left: 7px dashed #d2dae2;  
+    border-right: 7px dashed #d2dae2;
+    overflow: hidden;
+
+}
+
+.user_car{
+    height: 70px;
+    width: 50px;
+    /* background-color: crimson; */
+    background-image: url('mycar.png');
+    position: absolute;
+    bottom: 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.enemy_car{
+    height: 70px;
+    width: 50px;
+    /* background-color: purple; */
+    position: absolute;
+    /* background-image: url('mycar.png'); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.load_line{
+    height: 100px;
+    width: 10px;
+    background-color: white;
+    position:absolute;
+    left: 50%;
+
+}
+
+.startScreen{
+    height: 100px;
+    line-height: 30px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: auto;
+    background-color: #ff6b6b;
+    font-size: 1rem;
+    box-shadow: 0 5px 5px #777;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 5;
+    word-spacing: 3;
+    padding: 15px;
+}
+
+.score{
+    height: 70px;
+    width: 18%;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 40px;
+    background-color: #10ac84;
+    font-size: 1.5rem;
+    box-shadow: 0 5px 5px #777;
+    color: white;
+
+
+}
+
+.reset{
+    height: 70px;
+    width: 18%;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 400px;
+    background-color: blue;
+    font-size: 1.5rem;
+    box-shadow: 0 5px 5px #777;
+    color: white;
+}
+
+.carGame{
+    width: 100%;
+    height: 100%;
+    background-image: url('bg1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* .bird{
+    position: absolute;
+    z-index: 3;
+    top: 500px;
+    left: 200px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    background-image: url('b1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} */
